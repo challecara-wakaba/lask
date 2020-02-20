@@ -4,8 +4,7 @@ import { Switch } from 'react-router';
 function App() {
   return (
     <React.Fragment>
-      {/* ルーティング */}
-      <Switch></Switch>
+      <p>これで動くお</p>
     </React.Fragment>
   );
 }
