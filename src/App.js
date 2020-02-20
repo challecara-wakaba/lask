@@ -1,9 +1,11 @@
-import React from "react";
+import React from 'react';
+import { Switch } from 'react-router';
 
 function App() {
   return (
     <React.Fragment>
-      <p>Hello Lask!</p>
+      {/* ルーティング */}
+      <Switch></Switch>
     </React.Fragment>
   );
 }
