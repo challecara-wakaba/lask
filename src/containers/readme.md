@@ -7,5 +7,5 @@ Redux とコネクトするコンポーネントをおいてください
 
 ## この階層に用意するディレクトリ
 
-- organism -> molecules の組み合わせ(例: ヘッダー)
+- orgs -> organisms のこと、 molecles の組み合わせ(例: ヘッダー)
 - pages -> organism の組み合わせ(例: ホーム画面)
