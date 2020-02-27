@@ -1,11 +1,14 @@
 import React from 'react';
-import { Switch } from 'react-router';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
-    <React.Fragment>
-      <p>これで動くお</p>
-    </React.Fragment>
+    <BrowserRouter>
+      <Switch>
+        <Route exact path='/' render={() => <p>Lask</p>} />
+        <Route render={() => <p>404 Page not found.</p>} />
+      </Switch>
+    </BrowserRouter>
   );
 }
 
